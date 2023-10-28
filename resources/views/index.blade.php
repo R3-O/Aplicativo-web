@@ -46,7 +46,7 @@
         <section class="sec-contacto">
             <div>
                 <h2>Contacto</h2>
-                <p>correo@gemail.com</p>
+                <p>correo@gmail.com</p>
             </div>
             <div>
                 <h2>Company</h2>
@@ -54,20 +54,11 @@
             </div>
             <div>
                 <h2>Soporte</h2>
-                <a href="">http://soporteaulas.ucundinamarca.edu</a>
+                <a href="{{asset('pdfsModulos/MANUAL_DE_USUARIO.pdf')}}">Manual de usuario</a>
             </div>
         </section>
     </main>
     <footer>
-        <section class="sec-social">
-            <img src="{{asset('img/logo-blanco.png')}}" alt="">
-            <div>
-                <a href="">Ruta para facebook https</a>
-                <img src="{{asset('icons-redes/facebook.png')}}" alt="">
-                <a href="">Ruta para youtube https</a>
-                <img src="{{asset('icons-redes/youtube.png')}}" alt="">
-            </div>
-        </section>
         <section class="sec-copy">
             <p>Copyright © 2023. Todos los derechos reservados.</p>
             {{-- <a href="https://www.flaticon.es/iconos-gratis/facebook" title="facebook iconos">Facebook iconos creados por Freepik - Flaticon</a> --}}
