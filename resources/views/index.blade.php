@@ -54,7 +54,7 @@
             </div>
             <div>
                 <h2>Soporte</h2>
-                <a href="{{asset('pdfsModulos/MANUAL_DE_USUARIO.pdf')}}">Manual de usuario</a>
+                <a href="{{asset('pdfsModulos/MANUAL_DE_USUARIO.pdf')}}" target="_blank">Manual de usuario</a>
             </div>
         </section>
     </main>
